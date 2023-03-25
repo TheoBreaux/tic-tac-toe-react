@@ -1,0 +1,44 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#x {
+  color: var(--light-blue);
+}
+
+#o {
+  color: var(--gold);
+}
+
+#xo-icon,
+#turn-indicator-btn,
+#reset-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  padding: 5px;
+  text-align: center;
+}
+
+#turn-indicator-btn {
+  width: 100px;
+  height: 30px;
+  background-color: var(--tile-color);
+  color: var(--grey);
+  border-radius: 10px;
+  box-shadow: 0px 4px 0px 0px #102129;
+}
+
+#reset-btn {
+  background-color: var(--grey);
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 0px 0px #6c8997;
+  padding: 5px;
+}

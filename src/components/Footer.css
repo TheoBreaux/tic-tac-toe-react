@@ -1,0 +1,31 @@
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+#x-score,
+#ties-tile,
+#o-score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+#x-score {
+  background-color: var(--light-blue);
+}
+
+#ties-tile {
+  background-color: var(--grey);
+}
+
+#o-score {
+  background-color: var(--gold);
+}

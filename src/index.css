@@ -1,0 +1,15 @@
+:root {
+  --light-blue: #31c4be;
+  --gold: #f2b237;
+  --grey: #a8bec9;
+  --tile-color: #1f3540;
+  --dark-blue: #192a32;
+}
+
+body {
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
