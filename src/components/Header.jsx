@@ -3,6 +3,8 @@ import "./Header.css";
 import { GrPowerReset } from "react-icons/gr";
 
 const Header = (props) => {
+  
+  const gameResetHandler = () => {console.log("HELP")};
 
   return (
     <header id="header">
@@ -10,8 +12,8 @@ const Header = (props) => {
         <span id="x">X</span>
         <span id="o">O</span>
       </div>
-      <button onClick={props.turnClickHandler}id="turn-indicator-btn">{props.turn}</button>
-      <div id="reset-btn">
+      <div id="turn-indicator-btn">{props.turn}</div>
+      <div id="reset-btn" onClick={gameResetHandler}>
         <GrPowerReset />
       </div>
     </header>
